@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="fg6qOnGithub" fetch="https://github.com/fg6q" />
+
+    <project path="device/quanta/fg6q"
+             name="android_device_quanta_fg6q" 
+             remote="fg6qOnGithub" />
+    <project path="kernel/quanta/fg6q"
+             name="android_kernel_quanta_fg6q"
+             remote="fg6qOnGithub" />
+    <project path="vendor/quanta/fg6q"
+             name="android_vendor_quanta_fg6q"
+             remote="fg6qOnGithub" />
+</manifest>

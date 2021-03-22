@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/quanta/fg6q" name="FG6Q-Dev/android_device_quanta_fg6q"/>
-    <project path="kernel/quanta/fg6q" name="FG6Q-Dev/android_kernel_quanta_fg6q"/>
-    <project path="vendor/quanta/fg6q" name="FG6Q-Dev/android_vendor_quanta_fg6q"/>
-    <project path="external/stlport" name="LineageOS/android_external_stlport"/>
+    <remote name="github" fetch="https://github.com/" />
+    <project revision="refs/heads/cm-13.0" remote="github" path="device/quanta/fg6q" name="FG6Q-Dev/android_device_quanta_fg6q"/>
+    <project revision="refs/heads/cm-13.0" remote="github" path="kernel/quanta/fg6q" name="FG6Q-Dev/android_kernel_quanta_fg6q"/>
+    <project revision="refs/heads/cm-13.0" remote="github" path="vendor/quanta/fg6q" name="FG6Q-Dev/android_vendor_quanta_fg6q"/>
+    <project revision="refs/heads/cm-13.0" remote="github" path="external/stlport" name="LineageOS/android_external_stlport"/>
 </manifest>
